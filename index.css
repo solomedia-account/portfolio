@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "roboto";
+}
+
+nav {position: fixed;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: black ;
+	display: flex;
+
+}
+
+ul li a {
+	color: whitesmoke;
+	list-style: none;
+}
+ul li {
+	list-style: none;
+	list-style-type: none;
+}
+
+
+nav img {
+	height: 40px;
+	width: 40px;
+}
+nav ul {
+	list-style: none;
+	margin: auto;
+	width: 300px;
+	position: relative;
+	left: -100px;
+	color:  white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+#contact {
+	height: 400px;
+	width: 100%;
+	background-color: whitesmoke;
+
+}
+footer {
+	width: 100%;
+	height:  250px;
+	background-color: black;
+}
+#home-image {
+	width: 100%;
+	height: 600px;
+}
+#about {
+	width: 100%;
+	height: 500px;
+	background-color: lightblue;
+}
